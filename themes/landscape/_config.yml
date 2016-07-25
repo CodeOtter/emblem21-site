@@ -1,0 +1,33 @@
+# Header
+menu:
+  Emblem 21: /
+  News: /archives
+  Projects: /projects
+  About Us: /about-us
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: true
+
+# Sidebar
+sidebar: 
+widgets:
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+# widget behavior
+archive_type: 'monthly'
+show_count: false
+
+# Miscellaneous
+google_analytics:
+favicon: favicon
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
