@@ -69,6 +69,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Emblem21/emblem21-site
+  repo: https://github.com/Emblem21/emblem21.github.io
   branch: master
   message: Updating web site
