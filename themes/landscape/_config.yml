@@ -1,9 +1,9 @@
 # Header
 menu:
-  Emblem 21: /
-  News: /archives
+  Home: /
   Projects: /projects
   About Us: /about-us
+  News: /archives
 rss: /atom.xml
 
 # Content
