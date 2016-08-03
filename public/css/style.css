@@ -295,27 +295,56 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.white-box {
-  padding: 15px;
+.smallHeight {
+  min-height: 350px;
+}
+.blurbBox {
+  padding: 25px;
+  background-color: #fff;
+  text-align: center;
+  min-height: 415px;
+}
+.blurbBox.white {
+  background-color: #fff;
+}
+.blurbBox.white.border {
   border: 1px solid #dcebf7;
   -webkit-border-radius: 5px;
   border-radius: 5px;
+}
+.blurbBox.dark {
+  margin: 0 0;
+  background-color: #192024;
+  color: #fff;
+}
+.blurbBox.dark.border {
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.smallBlurbBox {
+  padding: 25px;
   background-color: #fff;
   text-align: center;
   min-height: 350px;
 }
-.white-box.no-border {
-  padding: 15px;
-  border: 0px;
+.smallBlurbBox.white {
   background-color: #fff;
-  text-align: center;
-  min-height: 350px;
 }
-.box.no-border {
-  padding: 15px;
-  border: 0px;
-  text-align: center;
-  min-height: 350px;
+.smallBlurbBox.white.border {
+  border: 1px solid #dcebf7;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.smallBlurbBox.dark {
+  margin: 0 0;
+  background-color: #192024;
+  color: #fff;
+}
+.smallBlurbBox.dark.border {
+  border: 1px solid #fff;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
 .grid-image {
   display: block;
@@ -353,6 +382,9 @@ p {
 }
 .section.white {
   background-color: #fff;
+}
+.section.dark {
+  background-color: #192024;
 }
 #header {
   height: 465px;
@@ -1045,7 +1077,7 @@ a.article-title:hover {
   break-inside: avoid-column;
 }
 .archive-article-inner {
-  padding: 10px;
+  padding: 0px;
   margin-bottom: 15px;
 }
 .archive-article-title {
